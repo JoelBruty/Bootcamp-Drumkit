@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drumkit</title>
+</head>
+<body class="background">
+    
+    <!-- Drumkit Audio -->
+
+    <audio id="drumKick" src="/sounds/kick.wav" type="audio/wav"></audio>
+    <audio id="drumSnare" src="/sounds/snare.wav" type="audio/wav"></audio>
+    <audio id="drumBoom" src="/sounds/boom.wav" type="audio/wav"></audio>
+    <audio id="drumClap" src="/sounds/clap.wav" type="audio/wav"></audio>
+    <audio id="drumHihat" src="/sounds/hihat.wav" type="audio/wav"></audio>
+    <audio id="drumOpenhat" src="/sounds/openhat.wav" type="audio/wav"></audio>
+    <audio id="drumRide" src="/sounds/ride.wav" type="audio/wav"></audio>
+    <audio id="drumTink" src="/sounds/tink.wav" type="audio/wav"></audio>
+    <audio id="drumTom" src="/sounds/tom.wav" type="audio/wav"></audio>
+
+    <!-- Basic UI -->
+
+    <h1>Drumkit</h1>
+    <h2 id="soundText">Press a key or click a button</h2>
+
+    <!-- Buttons -->
+
+    <div class="drumkit-container">
+        <div class="drumkit-button" id="kick">
+            <h1>Kick</h1>
+            <p>Space / L</p>
+        </div>
+        <div class="drumkit-button" id="snare">
+            <h1>Snare</h1>
+            <p>A</p>
+        </div>
+        <div class="drumkit-button" id="boom">
+            <h1>Boom</h1>
+            <p>S</p>
+        </div>
+        <div class="drumkit-button" id="clap">
+            <h1>Clap</h1>
+            <p>D</p>
+        </div>
+        <div class="drumkit-button" id="hihat">
+            <h1>Hihat</h1>
+            <p>F</p>
+        </div>
+        <div class="drumkit-button" id="openhat">
+            <h1>Openhat</h1>
+            <p>G</p>
+        </div>
+        <div class="drumkit-button" id="ride">
+            <h1>Ride</h1>
+            <p>H</p>
+        </div>
+        <div class="drumkit-button" id="tink">
+            <h1>Tink</h1>
+            <p>J</p>
+        </div>
+        <div class="drumkit-button" id="tom">
+            <h1>Tom</h1>
+            <p>K</p>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

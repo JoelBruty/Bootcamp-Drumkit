@@ -1,0 +1,58 @@
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+body{
+    background-color: #1f1506;
+    color: white;
+    background-size:auto
+}
+
+body h1{
+    font-size: 50px;
+}
+
+body h2{
+    font-size: 40px;
+}
+
+.background{
+    background-image: url("background.jpg");
+    /* image source: https://unsplash.com/photos/black-and-brown-snare-drum-mLnG4BkTz54?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash */
+}
+
+.background-slim{
+    background-image: url("background-slim.jpg");
+    /* Same image but cropped*/
+}
+
+.drumkit-container{
+    display: grid;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    padding: 10px;
+}
+
+.drumkit-button {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.drumkit-button-hover {
+    background-color: rgba(255, 255, 255, 0.55);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* .drumkit-button-click {
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+} */
